@@ -1154,7 +1154,7 @@ export default function SmartDepoPresentation() {
             <div className="backdrop-blur-xl bg-gradient-to-br from-[#F47264]/20 to-[#F7B84B]/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
               <div className="flex flex-col gap-2">
                 <h4 className="font-bold text-sm text-white mb-1 drop-shadow-lg">
-                  Lokomotiv brigada ta’mir sehi ustasiga lokomotiv TU-152 shakl
+                  Lokomotiv brigada ta’mir sexi ustasiga lokomotiv TU-152 shakl
                   bort jurnaliga kamchiliklarni yozilgan holatda topshiradi
                 </h4>
               </div>
@@ -1315,7 +1315,7 @@ export default function SmartDepoPresentation() {
             <div className="backdrop-blur-xl bg-gradient-to-br from-[#F47264]/20 to-[#F7B84B]/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
               <div className="flex flex-col gap-2">
                 <h4 className="font-bold text-white mb-1 drop-shadow-lg">
-                  Agregatlarni tekshirish va texnik ko‘rik uchun kichik sehlarga
+                  Agregatlarni tekshirish va texnik ko‘rik uchun kichik sexlarga
                   yuboriladi
                 </h4>
               </div>
@@ -1378,7 +1378,7 @@ export default function SmartDepoPresentation() {
             <div className="backdrop-blur-xl bg-gradient-to-br from-[#3ECFAB]/20 to-[#4BBFE6]/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
               <div className="flex flex-col gap-2">
                 <h4 className="font-bold text-white mb-1 drop-shadow-lg">
-                  Bajarilgan ishlarni xodim belgilaydi seh boshlig‘i tasdiqlaydi
+                  Bajarilgan ishlarni xodim belgilaydi sex boshlig‘i tasdiqlaydi
                   va tabel to‘ldirib boradi
                 </h4>
               </div>
@@ -1479,8 +1479,8 @@ export default function SmartDepoPresentation() {
               <div className="flex flex-col gap-2">
                 <h4 className="font-bold text-white mb-1 drop-shadow-lg">
                   Lokomotiv ekpluatatsiya jarayoniga chiqishga tayyor
-                  bo’lganida, Depo navbatchisi ta’mirlarni qayd etish jurnalidan
-                  lokomotivni ta’mirdan chiqaradi
+                  bo’lganida, Depo navbatchisi yangilangan interfeysdagi "Depo
+                  navbatchisi" dasturidan lokomotivni ta’mirdan chiqaradi
                 </h4>
               </div>
               <div className="relative w-16 h-16">
@@ -1733,8 +1733,8 @@ export default function SmartDepoPresentation() {
             <div className="backdrop-blur-xl bg-gradient-to-br from-red-500/20 to-pink-500/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
               <div className="flex flex-col gap-2">
                 <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
-                  Lokomotiv brigada ish taqsimlovchidan marshrut varaqasini
-                  oladi
+                  Ish taqsimlovchi lokomotiv brigadaga elektron marshrut ochib
+                  beradi
                 </h4>
               </div>
               <div className="relative w-16 h-16">
@@ -1895,7 +1895,8 @@ export default function SmartDepoPresentation() {
               <div className="flex flex-col gap-2">
                 <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
                   Lokomotiv brigada ish jarayonida aniqlangangan nosozliklarni
-                  ТУ-152 jurnaliga kiritadi
+                  "E-Marshrut" dasturidagi shaxsiy profilidagi TU-152 elektron
+                  jurnaliga kiritadi{" "}
                 </h4>
               </div>
               <div className="relative w-16 h-16">
@@ -2119,7 +2120,7 @@ export default function SmartDepoPresentation() {
               <div className="flex flex-col gap-2">
                 <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
                   Hisobi yuritilayotgan kommunikatsiya texnologiyalari
-                  qilayotgan sarflari har bir seh kesimida oyma oy tahlil
+                  qilayotgan sarflari har bir sex kesimida oyma oy tahlil
                   qilinadi
                 </h4>
               </div>
@@ -2465,7 +2466,7 @@ export default function SmartDepoPresentation() {
               </div>
             </div>
 
-            <div className="backdrop-blur-xl bg-gradient-to-br from-red-500/20 to-pink-500/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+            <div className="backdrop-blur-xl bg-gradient-to-br from-[#3ECFAB]/20 to-[#4BBFE6]/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
               <div className="flex flex-col gap-2">
                 <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
                   Har bir lokomotivga o`rnatilgan GPS tizimi undagi olingan
@@ -2486,18 +2487,18 @@ export default function SmartDepoPresentation() {
                   <path
                     d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
                     fill="none"
-                    stroke="#CC5257"
+                    stroke="#10b981"
                     strokeWidth="2"
-                    strokeDasharray="0, 100"
+                    strokeDasharray="90, 100"
                   />
                 </svg>
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-xs font-bold text-red-600">0%</span>
+                  <span className="text-xs font-bold text-green-600">90%</span>
                 </div>
               </div>
             </div>
 
-            <div className="backdrop-blur-xl bg-gradient-to-br from-red-500/20 to-pink-500/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+            <div className="backdrop-blur-xl bg-gradient-to-br from-[#3ECFAB]/20 to-[#4BBFE6]/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
               <div className="flex flex-col gap-2">
                 <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
                   GPS tizimi orqali Lokomotivlar 30 daqiqadan ko`proq harakatsiz
@@ -2518,13 +2519,13 @@ export default function SmartDepoPresentation() {
                   <path
                     d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
                     fill="none"
-                    stroke="#CC5257"
+                    stroke="#10b981"
                     strokeWidth="2"
-                    strokeDasharray="0, 100"
+                    strokeDasharray="100, 100"
                   />
                 </svg>
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-xs font-bold text-red-600">0%</span>
+                  <span className="text-xs font-bold text-green-600">100%</span>
                 </div>
               </div>
             </div>
@@ -2563,7 +2564,7 @@ export default function SmartDepoPresentation() {
               </div>
             </div>
 
-            <div className="backdrop-blur-xl bg-gradient-to-br from-red-500/20 to-pink-500/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+            <div className="backdrop-blur-xl bg-gradient-to-br from-[#3ECFAB]/20 to-[#4BBFE6]/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
               <div className="flex flex-col gap-2">
                 <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
                   Lokomotivlarga o`rnatilgan onlayn va oflayn rejimda ishlovchi
@@ -2584,18 +2585,18 @@ export default function SmartDepoPresentation() {
                   <path
                     d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
                     fill="none"
-                    stroke="#CC5257"
+                    stroke="#10b981"
                     strokeWidth="2"
-                    strokeDasharray="0, 100"
+                    strokeDasharray="90, 100"
                   />
                 </svg>
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-xs font-bold text-red-600">0%</span>
+                  <span className="text-xs font-bold text-green-600">90%</span>
                 </div>
               </div>
             </div>
 
-            <div className="backdrop-blur-xl bg-gradient-to-br from-red-500/20 to-pink-500/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+            <div className="backdrop-blur-xl bg-gradient-to-br from-[#3ECFAB]/20 to-[#4BBFE6]/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
               <div className="flex flex-col gap-2">
                 <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
                   Aniqlangan kamchiliklar E-journal dasturida qayd qilinadi va
@@ -2616,13 +2617,13 @@ export default function SmartDepoPresentation() {
                   <path
                     d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
                     fill="none"
-                    stroke="#CC5257"
+                    stroke="#10b981"
                     strokeWidth="2"
-                    strokeDasharray="20, 100"
+                    strokeDasharray="100, 100"
                   />
                 </svg>
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-xs font-bold text-red-600">20%</span>
+                  <span className="text-xs font-bold text-green-600">100%</span>
                 </div>
               </div>
             </div>
@@ -2822,7 +2823,7 @@ export default function SmartDepoPresentation() {
             <div className="backdrop-blur-xl bg-gradient-to-br from-[#3ECFAB]/20 to-[#4BBFE6]/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
               <div className="flex flex-col gap-2">
                 <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
-                  L-Service dasturi yordamida sehda faoliyat yuritadigan har bir
+                  L-Service dasturi yordamida sexda faoliyat yuritadigan har bir
                   ishchi hodimlar bajargan ishiga qarab baholanadi
                 </h4>
               </div>
