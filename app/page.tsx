@@ -1986,12 +1986,11 @@ export default function SmartDepoPresentation() {
       content: (
         <div className="p-6 h-full flex flex-col justify-center">
           {/* Row 1 */}
-          <div className="grid grid-cols-4 gap-4 mb-6 h-[30%]">
-            <div className="backdrop-blur-xl bg-gradient-to-br from-white/20 via-blue-50/30 to-indigo-50/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+          <div className="grid grid-cols-4 gap-4 mb-6 h-[25%]">
+            <div className="backdrop-blur-xl bg-gradient-to-br from-red-500/20 to-pink-500/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
               <div className="flex flex-col gap-2">
                 <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
-                  Elektrenergiya, suv, aloqa va boshqa kommunikatsiyalarni
-                  elektron hisobga olish
+                  Ish loyihasi rejasi va PPR
                 </h4>
               </div>
               <div className="relative w-16 h-16">
@@ -2019,39 +2018,7 @@ export default function SmartDepoPresentation() {
               </div>
             </div>
 
-            <div className="backdrop-blur-xl bg-gradient-to-br from-white/20 via-blue-50/30 to-indigo-50/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
-              <div className="flex flex-col gap-2">
-                <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
-                  Mevali va mevasiz daraxtlar, butalar va ko'chatlarni elektron
-                  hisobga olish
-                </h4>
-              </div>
-              <div className="relative w-16 h-16">
-                <svg
-                  className="w-16 h-16 transform -rotate-90"
-                  viewBox="0 0 36 36"
-                >
-                  <path
-                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
-                    fill="none"
-                    stroke="#e5e7eb"
-                    strokeWidth="2"
-                  />
-                  <path
-                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
-                    fill="none"
-                    stroke="#10b981"
-                    strokeWidth="2"
-                    strokeDasharray="100, 100"
-                  />
-                </svg>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-xs font-bold text-green-600">100%</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="backdrop-blur-xl bg-gradient-to-br from-white/20 via-blue-50/30 to-indigo-50/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+            <div className="backdrop-blur-xl bg-gradient-to-br from-red-500/20 to-pink-500/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
               <div className="flex flex-col gap-2">
                 <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
                   Bino va inshootlarni elektron hisobga olish
@@ -2082,10 +2049,43 @@ export default function SmartDepoPresentation() {
               </div>
             </div>
 
-            <div className="backdrop-blur-xl bg-gradient-to-br from-white/20 via-blue-50/30 to-indigo-50/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+            <div className="backdrop-blur-xl bg-gradient-to-br from-red-500/20 to-pink-500/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
               <div className="flex flex-col gap-2">
                 <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
-                  Depo navbatchisi avtotransport haydovchisini ishga chaqiradi
+                  Yangi qurilgan yoki ta`mirlangan binolar, inshoat, temir yo`l
+                  izlari yangilab boriladi.
+                </h4>
+              </div>
+              <div className="relative w-16 h-16">
+                <svg
+                  className="w-16 h-16 transform -rotate-90"
+                  viewBox="0 0 36 36"
+                >
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#e5e7eb"
+                    strokeWidth="2"
+                  />
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#ef4444"
+                    strokeWidth="2"
+                    strokeDasharray="0, 100"
+                  />
+                </svg>
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-xs font-bold text-red-600">0%</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="backdrop-blur-xl bg-gradient-to-br from-[#F47264]/20 to-[#F7B84B]/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+              <div className="flex flex-col gap-2">
+                <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
+                  Elektr energiya, suv, aloqa va boshqa kommunikatsiyalarni
+                  elektron hisobga olish
                 </h4>
               </div>
               <div className="relative w-16 h-16">
@@ -2115,11 +2115,236 @@ export default function SmartDepoPresentation() {
           </div>
 
           {/* Row 2 */}
-          <div className="grid grid-cols-4 gap-4 h-[30%]">
-            <div className="backdrop-blur-xl bg-gradient-to-br from-white/20 via-blue-50/30 to-indigo-50/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+          <div className="grid grid-cols-4 gap-4 mb-6 h-[25%]">
+            <div className="backdrop-blur-xl bg-gradient-to-br from-[#3ECFAB]/20 to-[#4BBFE6]/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
               <div className="flex flex-col gap-2">
                 <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
-                  Avtotransport haydovchisi marshrut varaqasini oladi
+                  Hisobi yuritilayotgan kommunikatsiya texnologiyalari
+                  qilayotgan sarflari har bir seh kesimida oyma oy tahlil
+                  qilinadi
+                </h4>
+              </div>
+              <div className="relative w-16 h-16">
+                <svg
+                  className="w-16 h-16 transform -rotate-90"
+                  viewBox="0 0 36 36"
+                >
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#e5e7eb"
+                    strokeWidth="2"
+                  />
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#10b981"
+                    strokeWidth="2"
+                    strokeDasharray="100, 100"
+                  />
+                </svg>
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-xs font-bold text-green-600">100%</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="backdrop-blur-xl bg-gradient-to-br from-[#3ECFAB]/20 to-[#4BBFE6]/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+              <div className="flex flex-col gap-2">
+                <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
+                  Tahlil natijalari izohi bilan elektron hisobga olinadi
+                </h4>
+              </div>
+              <div className="relative w-16 h-16">
+                <svg
+                  className="w-16 h-16 transform -rotate-90"
+                  viewBox="0 0 36 36"
+                >
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#e5e7eb"
+                    strokeWidth="2"
+                  />
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#10b981"
+                    strokeWidth="2"
+                    strokeDasharray="100, 100"
+                  />
+                </svg>
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-xs font-bold text-green-600">100%</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="backdrop-blur-xl bg-gradient-to-br from-[#3ECFAB]/20 to-[#4BBFE6]/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+              <div className="flex flex-col gap-2">
+                <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
+                  Mevali va mevasiz daraxtlar, butalar va ko`chatlarni elektron
+                  hisobga olish
+                </h4>
+              </div>
+              <div className="relative w-16 h-16">
+                <svg
+                  className="w-16 h-16 transform -rotate-90"
+                  viewBox="0 0 36 36"
+                >
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#e5e7eb"
+                    strokeWidth="2"
+                  />
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#10b981"
+                    strokeWidth="2"
+                    strokeDasharray="100, 100"
+                  />
+                </svg>
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-xs font-bold text-green-600">100%</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="backdrop-blur-xl bg-gradient-to-br from-[#3ECFAB]/20 to-[#4BBFE6]/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+              <div className="flex flex-col gap-2">
+                <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
+                  Avtogaraj bo‘limi
+                </h4>
+              </div>
+              <div className="relative w-16 h-16">
+                <svg
+                  className="w-16 h-16 transform -rotate-90"
+                  viewBox="0 0 36 36"
+                >
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#e5e7eb"
+                    strokeWidth="2"
+                  />
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#10b981"
+                    strokeWidth="2"
+                    strokeDasharray="100, 100"
+                  />
+                </svg>
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-xs font-bold text-green-600">100%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Row 3 */}
+          <div className="grid grid-cols-4 gap-4 h-[25%]">
+            <div className="backdrop-blur-xl bg-gradient-to-br from-[#3ECFAB]/20 to-[#4BBFE6]/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+              <div className="flex flex-col gap-2">
+                <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
+                  Depo navbatchisi avtotransport haydovchisini ishga chaqiradi
+                </h4>
+              </div>
+              <div className="relative w-16 h-16">
+                <svg
+                  className="w-16 h-16 transform -rotate-90"
+                  viewBox="0 0 36 36"
+                >
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#e5e7eb"
+                    strokeWidth="2"
+                  />
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#10b981"
+                    strokeWidth="2"
+                    strokeDasharray="100, 100"
+                  />
+                </svg>
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-xs font-bold text-green-600">100%</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="backdrop-blur-xl bg-gradient-to-br from-red-500/20 to-pink-500/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+              <div className="flex flex-col gap-2">
+                <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
+                  Avtotransport haydovchisi depo navbatchisidan marshrut
+                  varaqasini oladi
+                </h4>
+              </div>
+              <div className="relative w-16 h-16">
+                <svg
+                  className="w-16 h-16 transform -rotate-90"
+                  viewBox="0 0 36 36"
+                >
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#e5e7eb"
+                    strokeWidth="2"
+                  />
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#CC5257"
+                    strokeWidth="2"
+                    strokeDasharray="20, 100"
+                  />
+                </svg>
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-xs font-bold text-green-600">20%</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="backdrop-blur-xl bg-gradient-to-br from-[#3ECFAB]/20 to-[#4BBFE6]/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+              <div className="flex flex-col gap-2">
+                <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
+                  Avtotransport haydovchisi joriy yo`riqnomadan va tibbiy
+                  ko`rikdan o`tib ish jarayonini boshlaydi
+                </h4>
+              </div>
+              <div className="relative w-16 h-16">
+                <svg
+                  className="w-16 h-16 transform -rotate-90"
+                  viewBox="0 0 36 36"
+                >
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#e5e7eb"
+                    strokeWidth="2"
+                  />
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#10b981"
+                    strokeWidth="2"
+                    strokeDasharray="100, 100"
+                  />
+                </svg>
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-xs font-bold text-green-600">100%</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="backdrop-blur-xl bg-gradient-to-br from-[#F47264]/20 to-[#F7B84B]/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+              <div className="flex flex-col gap-2">
+                <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
+                  Qurilish ishlari bo‘limi
                 </h4>
               </div>
               <div className="relative w-16 h-16">
@@ -2138,104 +2363,11 @@ export default function SmartDepoPresentation() {
                     fill="none"
                     stroke="#f59e0b"
                     strokeWidth="2"
-                    strokeDasharray="50, 100"
+                    strokeDasharray="70, 100"
                   />
                 </svg>
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-xs font-bold text-orange-600">50%</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="backdrop-blur-xl bg-gradient-to-br from-white/20 via-blue-50/30 to-indigo-50/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
-              <div className="flex flex-col gap-2">
-                <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
-                  Tibbiy ko'rikdan o'tib ish jarayonini boshlaydi
-                </h4>
-              </div>
-              <div className="relative w-16 h-16">
-                <svg
-                  className="w-16 h-16 transform -rotate-90"
-                  viewBox="0 0 36 36"
-                >
-                  <path
-                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
-                    fill="none"
-                    stroke="#e5e7eb"
-                    strokeWidth="2"
-                  />
-                  <path
-                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
-                    fill="none"
-                    stroke="#10b981"
-                    strokeWidth="2"
-                    strokeDasharray="100, 100"
-                  />
-                </svg>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-xs font-bold text-green-600">100%</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="backdrop-blur-xl bg-gradient-to-br from-white/20 via-blue-50/30 to-indigo-50/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
-              <div className="flex flex-col gap-2">
-                <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
-                  GPS yordamida harakat va yoqilg'i sarfi hisoblanadi
-                </h4>
-              </div>
-              <div className="relative w-16 h-16">
-                <svg
-                  className="w-16 h-16 transform -rotate-90"
-                  viewBox="0 0 36 36"
-                >
-                  <path
-                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
-                    fill="none"
-                    stroke="#e5e7eb"
-                    strokeWidth="2"
-                  />
-                  <path
-                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
-                    fill="none"
-                    stroke="#10b981"
-                    strokeWidth="2"
-                    strokeDasharray="100, 100"
-                  />
-                </svg>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-xs font-bold text-green-600">100%</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="backdrop-blur-xl bg-gradient-to-br from-white/20 via-blue-50/30 to-indigo-50/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
-              <div className="flex flex-col gap-2">
-                <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
-                  Qurilish ishlari bo'limi yangi binolar va inshootlar
-                </h4>
-              </div>
-              <div className="relative w-16 h-16">
-                <svg
-                  className="w-16 h-16 transform -rotate-90"
-                  viewBox="0 0 36 36"
-                >
-                  <path
-                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
-                    fill="none"
-                    stroke="#e5e7eb"
-                    strokeWidth="2"
-                  />
-                  <path
-                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
-                    fill="none"
-                    stroke="#ef4444"
-                    strokeWidth="2"
-                    strokeDasharray="0, 100"
-                  />
-                </svg>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-xs font-bold text-red-600">0%</span>
+                  <span className="text-xs font-bold text-orange-600">70%</span>
                 </div>
               </div>
             </div>
