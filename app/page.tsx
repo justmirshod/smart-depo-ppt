@@ -1980,7 +1980,6 @@ export default function SmartDepoPresentation() {
         </div>
       ),
     },
-
     {
       title: "Xo'jalik ishlari",
       content: (
@@ -2402,16 +2401,13 @@ export default function SmartDepoPresentation() {
       content: (
         <div className=" p-6 h-full flex flex-col justify-center">
           {/* Row 1 */}
-          <div className="grid grid-cols-3 gap-4 mb-6 h-[30%]">
-            <div className="backdrop-blur-xl bg-gradient-to-br from-white/20 via-blue-50/30 to-indigo-50/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+          <div className="grid grid-cols-4 gap-4 mb-6 h-[30%]">
+            <div className="backdrop-blur-xl bg-gradient-to-br from-red-500/20 to-pink-500/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
               <div className="flex flex-col gap-2">
                 <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
-                  Video kuzatuv tizimi
+                  GPS va videokuzatuv qurilmalari aniqlagan kamchiliklar yillik
+                  tahlili qilinadi
                 </h4>
-                <p className="text-xs text-white/60">
-                  Lokomotivlarga o'rnatilgan onlayn va oflayn rejimda ishlovchi
-                  kuzatuv kameralari
-                </p>
               </div>
               <div className="relative w-16 h-16">
                 <svg
@@ -2427,7 +2423,7 @@ export default function SmartDepoPresentation() {
                   <path
                     d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
                     fill="none"
-                    stroke="#ef4444"
+                    stroke="#CC5257"
                     strokeWidth="2"
                     strokeDasharray="0, 100"
                   />
@@ -2438,15 +2434,206 @@ export default function SmartDepoPresentation() {
               </div>
             </div>
 
-            <div className="backdrop-blur-xl bg-gradient-to-br from-white/20 via-blue-50/30 to-indigo-50/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+            <div className="backdrop-blur-xl bg-gradient-to-br from-red-500/20 to-pink-500/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
               <div className="flex flex-col gap-2">
                 <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
                   GPS tizimi
                 </h4>
-                <p className="text-xs text-white/60">
-                  Har bir lokomotivga o'rnatilgan GPS tizimi natijalar asosida
-                  tahlil qilinadi
-                </p>
+              </div>
+              <div className="relative w-16 h-16">
+                <svg
+                  className="w-16 h-16 transform -rotate-90"
+                  viewBox="0 0 36 36"
+                >
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#e5e7eb"
+                    strokeWidth="2"
+                  />
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#CC5257"
+                    strokeWidth="2"
+                    strokeDasharray="0, 100"
+                  />
+                </svg>
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-xs font-bold text-red-600">0%</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="backdrop-blur-xl bg-gradient-to-br from-red-500/20 to-pink-500/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+              <div className="flex flex-col gap-2">
+                <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
+                  Har bir lokomotivga o`rnatilgan GPS tizimi undagi olingan
+                  natijalar asosida tahlil qlinadi
+                </h4>
+              </div>
+              <div className="relative w-16 h-16">
+                <svg
+                  className="w-16 h-16 transform -rotate-90"
+                  viewBox="0 0 36 36"
+                >
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#e5e7eb"
+                    strokeWidth="2"
+                  />
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#CC5257"
+                    strokeWidth="2"
+                    strokeDasharray="0, 100"
+                  />
+                </svg>
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-xs font-bold text-red-600">0%</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="backdrop-blur-xl bg-gradient-to-br from-red-500/20 to-pink-500/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+              <div className="flex flex-col gap-2">
+                <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
+                  GPS tizimi orqali Lokomotivlar 30 daqiqadan ko`proq harakatsiz
+                  turganda, avtomatik ravishda habar beriladi
+                </h4>
+              </div>
+              <div className="relative w-16 h-16">
+                <svg
+                  className="w-16 h-16 transform -rotate-90"
+                  viewBox="0 0 36 36"
+                >
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#e5e7eb"
+                    strokeWidth="2"
+                  />
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#CC5257"
+                    strokeWidth="2"
+                    strokeDasharray="0, 100"
+                  />
+                </svg>
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-xs font-bold text-red-600">0%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Row 2 */}
+          <div className="grid grid-cols-4 gap-4 h-[30%]">
+            <div className="backdrop-blur-xl bg-gradient-to-br from-[#F47264]/20 to-[#F7B84B]/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+              <div className="flex flex-col gap-2">
+                <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
+                  Videokuzatuv tizimi
+                </h4>
+              </div>
+              <div className="relative w-16 h-16">
+                <svg
+                  className="w-16 h-16 transform -rotate-90"
+                  viewBox="0 0 36 36"
+                >
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#e5e7eb"
+                    strokeWidth="2"
+                  />
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#f59e0b"
+                    strokeWidth="2"
+                    strokeDasharray="50, 100"
+                  />
+                </svg>
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-xs font-bold text-orange-600">50%</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="backdrop-blur-xl bg-gradient-to-br from-red-500/20 to-pink-500/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+              <div className="flex flex-col gap-2">
+                <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
+                  Lokomotivlarga o`rnatilgan onlayn va oflayn rejimda ishlovchi
+                  kuzatuv kameralari sinchiklab tahlil qilinadi
+                </h4>
+              </div>
+              <div className="relative w-16 h-16">
+                <svg
+                  className="w-16 h-16 transform -rotate-90"
+                  viewBox="0 0 36 36"
+                >
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#e5e7eb"
+                    strokeWidth="2"
+                  />
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#CC5257"
+                    strokeWidth="2"
+                    strokeDasharray="0, 100"
+                  />
+                </svg>
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-xs font-bold text-red-600">0%</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="backdrop-blur-xl bg-gradient-to-br from-red-500/20 to-pink-500/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+              <div className="flex flex-col gap-2">
+                <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
+                  Aniqlangan kamchiliklar E-journal dasturida qayd qilinadi va
+                  lokomotiv brigadalarga tegishli choralar ko`riladi
+                </h4>
+              </div>
+              <div className="relative w-16 h-16">
+                <svg
+                  className="w-16 h-16 transform -rotate-90"
+                  viewBox="0 0 36 36"
+                >
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#e5e7eb"
+                    strokeWidth="2"
+                  />
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#CC5257"
+                    strokeWidth="2"
+                    strokeDasharray="20, 100"
+                  />
+                </svg>
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-xs font-bold text-red-600">20%</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="backdrop-blur-xl bg-gradient-to-br from-[#3ECFAB]/20 to-[#4BBFE6]/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+              <div className="flex flex-col gap-2">
+                <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
+                  Qayd qilingan kamchiliklar oyma oy tahlil qilinadi, bunda
+                  takroriy qoidabuzarlikka yo`l qo`yayotgan lokomotiv brigadalar
+                  va lokomotivlar qattiq nazoratga olinadi
+                </h4>
               </div>
               <div className="relative w-16 h-16">
                 <svg
@@ -2464,141 +2651,11 @@ export default function SmartDepoPresentation() {
                     fill="none"
                     stroke="#10b981"
                     strokeWidth="2"
-                    strokeDasharray="100, 100"
-                  />
-                </svg>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-xs font-bold text-green-600">100%</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="backdrop-blur-xl bg-gradient-to-br from-white/20 via-blue-50/30 to-indigo-50/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
-              <div className="flex flex-col gap-2">
-                <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
-                  Aniqlangan kamchiliklar E-journal dasturida qayd qilinadi
-                </h4>
-              </div>
-              <div className="relative w-16 h-16">
-                <svg
-                  className="w-16 h-16 transform -rotate-90"
-                  viewBox="0 0 36 36"
-                >
-                  <path
-                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
-                    fill="none"
-                    stroke="#e5e7eb"
-                    strokeWidth="2"
-                  />
-                  <path
-                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
-                    fill="none"
-                    stroke="#ef4444"
-                    strokeWidth="2"
-                    strokeDasharray="0, 100"
-                  />
-                </svg>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-xs font-bold text-red-600">0%</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Row 2 */}
-          <div className="grid grid-cols-3 gap-4 h-[30%]">
-            <div className="backdrop-blur-xl bg-gradient-to-br from-white/20 via-blue-50/30 to-indigo-50/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
-              <div className="flex flex-col gap-2">
-                <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
-                  GPS tizimi orqali 30 daqiqadan ko'proq harakatsiz turgan
-                  lokomotivlar uchun avtomatik habar
-                </h4>
-              </div>
-              <div className="relative w-16 h-16">
-                <svg
-                  className="w-16 h-16 transform -rotate-90"
-                  viewBox="0 0 36 36"
-                >
-                  <path
-                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
-                    fill="none"
-                    stroke="#e5e7eb"
-                    strokeWidth="2"
-                  />
-                  <path
-                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
-                    fill="none"
-                    stroke="#f59e0b"
-                    strokeWidth="2"
-                    strokeDasharray="50, 100"
-                  />
-                </svg>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-xs font-bold text-orange-600">50%</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="backdrop-blur-xl bg-gradient-to-br from-white/20 via-blue-50/30 to-indigo-50/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
-              <div className="flex flex-col gap-2">
-                <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
-                  Kamchiliklar oyma-oy tahlil qilinadi va takroriy
-                  qoidabuzarliklar nazoratga olinadi
-                </h4>
-              </div>
-              <div className="relative w-16 h-16">
-                <svg
-                  className="w-16 h-16 transform -rotate-90"
-                  viewBox="0 0 36 36"
-                >
-                  <path
-                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
-                    fill="none"
-                    stroke="#e5e7eb"
-                    strokeWidth="2"
-                  />
-                  <path
-                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
-                    fill="none"
-                    stroke="#f59e0b"
-                    strokeWidth="2"
-                    strokeDasharray="50, 100"
-                  />
-                </svg>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-xs font-bold text-orange-600">50%</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="backdrop-blur-xl bg-gradient-to-br from-white/20 via-blue-50/30 to-indigo-50/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
-              <div className="flex flex-col gap-2">
-                <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
-                  GPS va video kuzatuv qurilmalari aniqlagan kamchiliklar yillik
-                  tahlili
-                </h4>
-              </div>
-              <div className="relative w-16 h-16">
-                <svg
-                  className="w-16 h-16 transform -rotate-90"
-                  viewBox="0 0 36 36"
-                >
-                  <path
-                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
-                    fill="none"
-                    stroke="#e5e7eb"
-                    strokeWidth="2"
-                  />
-                  <path
-                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
-                    fill="none"
-                    stroke="#f59e0b"
-                    strokeWidth="2"
                     strokeDasharray="80, 100"
                   />
                 </svg>
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-xs font-bold text-orange-600">80%</span>
+                  <span className="text-xs font-bold text-green-600">80%</span>
                 </div>
               </div>
             </div>
@@ -2634,15 +2691,11 @@ export default function SmartDepoPresentation() {
         <div className="p-6 h-full flex flex-col justify-center">
           {/* Row 1 */}
           <div className="grid grid-cols-4 gap-4 mb-6 h-[30%]">
-            <div className="backdrop-blur-xl bg-gradient-to-br from-white/20 via-blue-50/30 to-indigo-50/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+            <div className="backdrop-blur-xl bg-gradient-to-br from-[#3ECFAB]/20 to-[#4BBFE6]/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
               <div className="flex flex-col gap-2">
                 <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
-                  L-Service
+                  DepoZoom AT
                 </h4>
-                <p className="text-xs text-white/60">
-                  Sehda faoliyat yuritadigan har bir ishchi hodimlar bajargan
-                  ishiga qarab baholanadi
-                </p>
               </div>
               <div className="relative w-16 h-16">
                 <svg
@@ -2669,50 +2722,11 @@ export default function SmartDepoPresentation() {
               </div>
             </div>
 
-            <div className="backdrop-blur-xl bg-gradient-to-br from-white/20 via-blue-50/30 to-indigo-50/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
-              <div className="flex flex-col gap-2">
-                <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
-                  Sun'iy yo'ldosh
-                </h4>
-                <p className="text-xs text-white/60">
-                  ChatGPT ni Smart Depo, Elektron marshrut dasturlariga
-                  bosqichma-bosqich qo'llash
-                </p>
-              </div>
-              <div className="relative w-16 h-16">
-                <svg
-                  className="w-16 h-16 transform -rotate-90"
-                  viewBox="0 0 36 36"
-                >
-                  <path
-                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
-                    fill="none"
-                    stroke="#e5e7eb"
-                    strokeWidth="2"
-                  />
-                  <path
-                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
-                    fill="none"
-                    stroke="#10b981"
-                    strokeWidth="2"
-                    strokeDasharray="100, 100"
-                  />
-                </svg>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-xs font-bold text-green-600">100%</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="backdrop-blur-xl bg-gradient-to-br from-white/20 via-blue-50/30 to-indigo-50/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+            <div className="backdrop-blur-xl bg-gradient-to-br from-red-500/20 to-pink-500/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
               <div className="flex flex-col gap-2">
                 <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
                   Omborxona hisoboti
                 </h4>
-                <p className="text-xs text-white/60">
-                  Maxsus hisob yurituvchi qurilma bilan ta'minlanadi va 1C
-                  dasturiga integratsiya qilinadi
-                </p>
               </div>
               <div className="relative w-16 h-16">
                 <svg
@@ -2728,21 +2742,53 @@ export default function SmartDepoPresentation() {
                   <path
                     d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
                     fill="none"
-                    stroke="#f59e0b"
+                    stroke="#ef4444"
                     strokeWidth="2"
-                    strokeDasharray="50, 100"
+                    strokeDasharray="0, 100"
                   />
                 </svg>
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-xs font-bold text-orange-600">50%</span>
+                  <span className="text-xs font-bold text-red-600">0%</span>
                 </div>
               </div>
             </div>
 
-            <div className="backdrop-blur-xl bg-gradient-to-br from-white/20 via-blue-50/30 to-indigo-50/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+            <div className="backdrop-blur-xl bg-gradient-to-br from-red-500/20 to-pink-500/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
               <div className="flex flex-col gap-2">
                 <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
-                  L-Service dasturi 1C dasturiga integratsiya qilinadi
+                  Omborxonalar maxsus hisob yurituvchi qurilma bilan
+                  ta`minlanadi va 1C dasturiga integratsiya qilinadi
+                </h4>
+              </div>
+              <div className="relative w-16 h-16">
+                <svg
+                  className="w-16 h-16 transform -rotate-90"
+                  viewBox="0 0 36 36"
+                >
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#e5e7eb"
+                    strokeWidth="2"
+                  />
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#ef4444"
+                    strokeWidth="2"
+                    strokeDasharray="0, 100"
+                  />
+                </svg>
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-xs font-bold text-red-600">0%</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="backdrop-blur-xl bg-gradient-to-br from-[#F47264]/20 to-[#F7B84B]/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+              <div className="flex flex-col gap-2">
+                <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
+                  L-Service
                 </h4>
               </div>
               <div className="relative w-16 h-16">
@@ -2772,15 +2818,13 @@ export default function SmartDepoPresentation() {
           </div>
 
           {/* Row 2 */}
-          <div className="grid grid-cols-4 gap-4 h-[30%]">
-            <div className="backdrop-blur-xl bg-gradient-to-br from-white/20 via-blue-50/30 to-indigo-50/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+          <div className="grid grid-cols-4 gap-4 mb-6 h-[30%]">
+            <div className="backdrop-blur-xl bg-gradient-to-br from-[#3ECFAB]/20 to-[#4BBFE6]/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
               <div className="flex flex-col gap-2">
                 <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
-                  Yagona dashboard
+                  L-Service dasturi yordamida sehda faoliyat yuritadigan har bir
+                  ishchi hodimlar bajargan ishiga qarab baholanadi
                 </h4>
-                <p className="text-xs text-white/60">
-                  Barcha tizimlarni birlashtiruvchi boshqaruv paneli
-                </p>
               </div>
               <div className="relative w-16 h-16">
                 <svg
@@ -2807,14 +2851,173 @@ export default function SmartDepoPresentation() {
               </div>
             </div>
 
-            <div className="backdrop-blur-xl bg-gradient-to-br from-white/20 via-blue-50/30 to-indigo-50/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+            <div className="backdrop-blur-xl bg-gradient-to-br from-[#F47264]/20 to-[#F7B84B]/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
               <div className="flex flex-col gap-2">
                 <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
-                  DepoZoom AT
+                  L-Service dasturi 1C dasturiga integratsiya qilinadi
                 </h4>
-                <p className="text-xs text-white/60">
-                  Avtomatlashtirilgan tizim
-                </p>
+              </div>
+              <div className="relative w-16 h-16">
+                <svg
+                  className="w-16 h-16 transform -rotate-90"
+                  viewBox="0 0 36 36"
+                >
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#e5e7eb"
+                    strokeWidth="2"
+                  />
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#f59e0b"
+                    strokeWidth="2"
+                    strokeDasharray="50, 100"
+                  />
+                </svg>
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-xs font-bold text-orange-600">50%</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="backdrop-blur-xl bg-gradient-to-br from-red-500/20 to-pink-500/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+              <div className="flex flex-col gap-2">
+                <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
+                  Sun`iy yo`ldosh
+                </h4>
+              </div>
+              <div className="relative w-16 h-16">
+                <svg
+                  className="w-16 h-16 transform -rotate-90"
+                  viewBox="0 0 36 36"
+                >
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#e5e7eb"
+                    strokeWidth="2"
+                  />
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#ef4444"
+                    strokeWidth="2"
+                    strokeDasharray="0, 100"
+                  />
+                </svg>
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-xs font-bold text-red-600">0%</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="backdrop-blur-xl bg-gradient-to-br from-[#3ECFAB]/20 to-[#4BBFE6]/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+              <div className="flex flex-col gap-2">
+                <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
+                  Sun`iy yo`ldosh texnologiyalari(ChatGPT) ni Smart Depo,
+                  Elektron marshrut dasturlariga bosqichma boaqich qo`llash
+                </h4>
+              </div>
+              <div className="relative w-16 h-16">
+                <svg
+                  className="w-16 h-16 transform -rotate-90"
+                  viewBox="0 0 36 36"
+                >
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#e5e7eb"
+                    strokeWidth="2"
+                  />
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#10b981"
+                    strokeWidth="2"
+                    strokeDasharray="100, 100"
+                  />
+                </svg>
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-xs font-bold text-green-600">100%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Row 3 */}
+          <div className="grid grid-cols-4 gap-4 h-[30%]">
+            <div className="backdrop-blur-xl bg-gradient-to-br from-red-500/20 to-pink-500/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+              <div className="flex flex-col gap-2">
+                <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
+                  Har bir mashinist shaxsiy kabinetiga ChatGPT ni integratsiya
+                  qilish
+                </h4>
+              </div>
+              <div className="relative w-16 h-16">
+                <svg
+                  className="w-16 h-16 transform -rotate-90"
+                  viewBox="0 0 36 36"
+                >
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#e5e7eb"
+                    strokeWidth="2"
+                  />
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#ef4444"
+                    strokeWidth="2"
+                    strokeDasharray="20, 100"
+                  />
+                </svg>
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-xs font-bold text-red-600">20%</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="backdrop-blur-xl bg-gradient-to-br from-red-500/20 to-pink-500/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+              <div className="flex flex-col gap-2">
+                <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
+                  Mashinist marshrut listlarni to`ldirish jarayonida yuzaga
+                  kelgan har qanday tushunmovchilikni ChatGPT dan so`rash orqali
+                  bartaraf etishi mumkin
+                </h4>
+              </div>
+              <div className="relative w-16 h-16">
+                <svg
+                  className="w-16 h-16 transform -rotate-90"
+                  viewBox="0 0 36 36"
+                >
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#e5e7eb"
+                    strokeWidth="2"
+                  />
+                  <path
+                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
+                    fill="none"
+                    stroke="#ef4444"
+                    strokeWidth="2"
+                    strokeDasharray="20, 100"
+                  />
+                </svg>
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-xs font-bold text-red-600">20%</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="backdrop-blur-xl bg-gradient-to-br from-[#F47264]/20 to-[#F7B84B]/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+              <div className="flex flex-col gap-2">
+                <h4 className="font-bold text-white mb-1 drop-shadow-lg">
+                  Yagona dashboard
+                </h4>
               </div>
               <div className="relative w-16 h-16">
                 <svg
@@ -2841,15 +3044,11 @@ export default function SmartDepoPresentation() {
               </div>
             </div>
 
-            <div className="backdrop-blur-xl bg-gradient-to-br from-white/20 via-blue-50/30 to-indigo-50/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+            <div className="backdrop-blur-xl bg-gradient-to-br from-[#F47264]/20 to-[#F7B84B]/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
               <div className="flex flex-col gap-2">
-                <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
+                <h4 className="font-bold text-white mb-1 drop-shadow-lg">
                   Lokomotiv 360
                 </h4>
-                <p className="text-xs text-white/60">
-                  Dastur orqali depolarga virtual sayohat uyushtirish mumkin
-                  bo'ladi
-                </p>
               </div>
               <div className="relative w-16 h-16">
                 <svg
@@ -2865,45 +3064,13 @@ export default function SmartDepoPresentation() {
                   <path
                     d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
                     fill="none"
-                    stroke="#ef4444"
+                    stroke="#f59e0b"
                     strokeWidth="2"
-                    strokeDasharray="0, 100"
+                    strokeDasharray="70, 100"
                   />
                 </svg>
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-xs font-bold text-red-600">0%</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="backdrop-blur-xl bg-gradient-to-br from-white/20 via-blue-50/30 to-indigo-50/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
-              <div className="flex flex-col gap-2">
-                <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
-                  Har bir mashinist shaxsiy kabinetiga ChatGPT integratsiya
-                  qilish
-                </h4>
-              </div>
-              <div className="relative w-16 h-16">
-                <svg
-                  className="w-16 h-16 transform -rotate-90"
-                  viewBox="0 0 36 36"
-                >
-                  <path
-                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
-                    fill="none"
-                    stroke="#e5e7eb"
-                    strokeWidth="2"
-                  />
-                  <path
-                    d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
-                    fill="none"
-                    stroke="#ef4444"
-                    strokeWidth="2"
-                    strokeDasharray="0, 100"
-                  />
-                </svg>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-xs font-bold text-red-600">0%</span>
+                  <span className="text-xs font-bold text-orange-600">70%</span>
                 </div>
               </div>
             </div>
