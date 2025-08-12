@@ -1433,7 +1433,7 @@ export default function SmartDepoPresentation() {
                     fill="none"
                     stroke="#f59e0b"
                     strokeWidth="2"
-                    strokeDasharray="100, 100"
+                    strokeDasharray="85, 100"
                   />
                 </svg>
                 <div className="absolute inset-0 flex items-center justify-center">
@@ -1442,10 +1442,10 @@ export default function SmartDepoPresentation() {
               </div>
             </div>
 
-            <div className="backdrop-blur-xl bg-gradient-to-br from-rose-500/20 to-rose-500/5 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
+            <div className="backdrop-blur-xl bg-gradient-to-br from-[#3ECFAB]/20 to-[#4BBFE6]/20 p-6 rounded-2xl shadow-2xl border border-white/30 border-l-4 border-cyan-400/80 flex items-center justify-between hover:scale-105 transition-all duration-300">
               <div className="flex flex-col gap-2">
-                <h4 className="font-bold text-white mb-1 drop-shadow-lg">
-                  Yoqilg’i nazoratchisi yoqilg’i hajmini tekshirib oladi
+                <h4 className="font-bold text-white mb-1 drop-shadow-lg text-lg">
+                  Ehtiyot qismlar va uzellar almashinuvi
                 </h4>
               </div>
               <div className="relative w-16 h-16">
@@ -1462,13 +1462,13 @@ export default function SmartDepoPresentation() {
                   <path
                     d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"
                     fill="none"
-                    stroke="#CC5257"
+                    stroke="#f59e0b"
                     strokeWidth="2"
-                    strokeDasharray="0, 100"
+                    strokeDasharray="80, 100"
                   />
                 </svg>
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-xs font-bold text-red-600">0%</span>
+                  <span className="text-xs font-bold text-orange-600">80%</span>
                 </div>
               </div>
             </div>
