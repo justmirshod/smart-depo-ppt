@@ -1891,8 +1891,8 @@ export default function SmartDepoPresentation() {
               <div className="flex flex-col gap-2">
                 <h4 className="font-bold text-xl text-white mb-1 drop-shadow-lg">
                   Lokomotiv brigada ish jarayonida aniqlangangan nosozliklarni
-                  "E-Marshrut" dasturidagi shaxsiy profilidagi TU-152 elektron
-                  jurnaliga kiritadi{" "}
+                  "E-Marshrut" dasturidagi shaxsiy profilidagi TU-137 va TU-152
+                  elektron jurnaliga kiritadi
                 </h4>
               </div>
               <div className="relative w-16 h-16">
